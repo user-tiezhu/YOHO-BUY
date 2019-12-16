@@ -1,0 +1,64 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+#header {
+  height: 1000px; }
+
+.wraper {
+  width: 1150px;
+  margin: 0 auto; }
+
+#header .header-t {
+  height: 32px;
+  background-color: #f4f4f4;
+  line-height: 32px;
+  font-size: 12px; }
+#header .header-t .header-t-l {
+  float: left; }
+#header .header-t .header-t-m {
+  float: left; }
+#header .header-t .header-t-m a {
+  color: #d71d32; }
+#header .header-t .header-t-r {
+  float: right; }
+#header .header-t .header-t-r ul li {
+  float: left; }
+#header .header-t .header-t-r ul li a {
+  color: #8e8e8e; }
+#header .header-t .header-t-r ul li .greed {
+  color: #86bf4a; }
+#header .header-t .header-t-r ul li .red {
+  color: #d71d32; }
+
+/* 网站头部中*/
+.header-s {
+  height: 100px; }
+
+.header-s-l {
+  float: left; }
+
+.header-s-l ul {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 45px; }
+.header-s-l ul .diyi {
+  background-color: #3a3a3a; }
+.header-s-l ul .diyi h5 {
+  color: #f4f4f4; }
+
+.header-s-l ul li {
+  float: left;
+  text-align: center;
+  padding: 8px 22px 5px;
+  cursor: pointer;
+  font-size: 16px; }
+
+/*# sourceMappingURL=index1.css.map */

@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+$box-color100:#f4f4f4; //背景
+$box-color200:#d71d32;
+$box-color300:#8e8e8e;
+$box-color400:#86bf4a;
+$box-color500:#eaeceb;
+$box-color600:#3a3a3a;
+
+#header {
+    height: 1000px;
+}
+
+.wraper {
+    width: 1150px;
+    margin: 0 auto;
+
+}
+
+
+#header .header-t {
+    height: 32px;
+    background-color: $box-color100;
+    line-height: 32px;
+    font-size: 12px;
+
+
+    .header-t-l {
+        //左边
+        float: left;
+    }
+
+
+    .header-t-m {
+        float: left;
+
+        a {
+            color: #d71d32;
+        }
+    }
+
+    //右边
+    .header-t-r {
+        float: right;
+
+        ul li {
+            float: left;
+
+            a {
+                color: $box-color300;
+            }
+
+            .greed {
+                color: $box-color400;
+            }
+
+            .red {
+                color: $box-color200;
+            }
+
+        }
+    }
+}
+
+/* 网站头部中*/
+.header-s {
+    height: 100px;
+
+}
+.header-s-l{
+    float: left;
+}
+.header-s-l ul {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 45px;
+    .diyi {
+        background-color: $box-color600;
+
+        h5 {
+            color: $box-color100;
+        }
+    }
+}
+
+.header-s-l ul li {
+    float: left;
+    text-align: center;
+    padding: 8px 22px 5px;
+    cursor: pointer;
+   font-size: 16px;
+}
