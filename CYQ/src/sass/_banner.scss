@@ -1,16 +1,53 @@
 @charset "utf-8";
+
 // 中间banner图
 .banner-t ul {
     li {
-        display: none
+        display: none;
+        opacity: 0;
     }
+    .show{
+        opacity: 1;
+        display: block;
+    }
+}
+
+// 箭头
+.banner-t {
+
+    .lt,
+    .gt {
+        width: 60px;
+        height: 60px;
+        background-color: #fff;
+        opacity: 0.55;
+        line-height: 58px;
+        position: absolute;
+        text-align: center;
+
+        a {
+            font-size: 48px;
+            color: #59585a;
+        }
+    }
+
+    .lt {
+        left: 0;
+        top: 197px;
+    }
+    .gt {
+        right: 0;
+        top: 197px;
+    }
+
 }
 
 
 .banner-b {
-    ul{
+    ul {
         display: block;
         overflow: hidden;
+
         li {
             float: left;
             margin-left: 5px;

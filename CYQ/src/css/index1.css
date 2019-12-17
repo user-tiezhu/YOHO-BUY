@@ -188,7 +188,29 @@ a {
   line-height: 14px; }
 
 .banner-t ul li {
-  display: none; }
+  display: none;
+  opacity: 0; }
+.banner-t ul .show {
+  opacity: 1;
+  display: block; }
+
+.banner-t .lt, .banner-t .gt {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  opacity: 0.55;
+  line-height: 58px;
+  position: absolute;
+  text-align: center; }
+.banner-t .lt a, .banner-t .gt a {
+  font-size: 48px;
+  color: #59585a; }
+.banner-t .lt {
+  left: 0;
+  top: 197px; }
+.banner-t .gt {
+  right: 0;
+  top: 197px; }
 
 .banner-b ul {
   display: block;
