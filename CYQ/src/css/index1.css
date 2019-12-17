@@ -10,11 +10,62 @@ a {
   text-decoration: none; }
 
 #header {
-  height: 1000px; }
+  position: relative; }
 
 .wraper {
   width: 1150px;
   margin: 0 auto; }
+
+#header .icon {
+  background-image: url(../img/touxiang.png);
+  background-size: 123px 122px;
+  width: 16px;
+  height: 12px;
+  display: inline-block;
+  vertical-align: middle; }
+
+#header .icon-hamburger {
+  background-position: -19px -86px; }
+
+.icon-bottom {
+  background-position: -64px -86px; }
+
+.icon-biao {
+  background-position: 0 -86px; }
+
+.icon-shoucang {
+  background-position: -107px -44px; }
+
+.icon-xiaoxi {
+  background-position: -107px -65px; }
+
+.icon-kehu {
+  background-position: -107px -44px; }
+
+.icon-guanzhu {
+  background-position: -107px -44px; }
+
+.icon-shouji {
+  background-position: 0 -108px; }
+
+.icon-zhapian {
+  background-position: -107px -22px; }
+
+.xian {
+  width: 0;
+  margin-top: 11px;
+  margin-right: 12px;
+  height: 14px;
+  float: left;
+  border-left: 1px solid #dcdcdc; }
+
+.header-s-r .da {
+  background: url(../img/search.png) no-repeat 50%;
+  width: 78px;
+  height: 28px;
+  float: right;
+  border: none;
+  cursor: pointer; }
 
 #header .header-t {
   height: 32px;
@@ -23,14 +74,28 @@ a {
   font-size: 12px; }
 #header .header-t .header-t-l {
   float: left; }
+#header .header-t .header-t-l ul {
+  position: absolute;
+  display: none;
+  width: 170px;
+  top: 32px;
+  margin-left: -5px;
+  background-color: #f4f4f4;
+  padding: 20px 0 20px 20px;
+  z-index: 1000; }
+#header .header-t .header-t-l ul a {
+  color: #9196a0;
+  font-size: 14px; }
 #header .header-t .header-t-m {
-  float: left; }
+  float: left;
+  padding-left: 20px; }
 #header .header-t .header-t-m a {
   color: #d71d32; }
 #header .header-t .header-t-r {
   float: right; }
 #header .header-t .header-t-r ul li {
-  float: left; }
+  float: left;
+  padding-right: 10px; }
 #header .header-t .header-t-r ul li a {
   color: #8e8e8e; }
 #header .header-t .header-t-r ul li .greed {
@@ -40,15 +105,21 @@ a {
 
 /* 网站头部中*/
 .header-s {
-  height: 100px; }
+  height: 100px;
+  position: relative; }
 
 .header-s-l {
-  float: left; }
+  position: absolute;
+  bottom: 0; }
 
 .header-s-l ul {
-  display: inline-block;
   vertical-align: top;
   padding-top: 45px; }
+.header-s-l ul h5 {
+  font: inherit; }
+.header-s-l ul .yingwen {
+  color: #8e8e8e;
+  font-size: 12px; }
 .header-s-l ul .diyi {
   background-color: #3a3a3a; }
 .header-s-l ul .diyi h5 {
@@ -60,5 +131,101 @@ a {
   padding: 8px 22px 5px;
   cursor: pointer;
   font-size: 16px; }
+
+.header-s-m {
+  position: absolute;
+  left: 550px;
+  top: 30px;
+  cursor: pointer; }
+
+.header-s-m .logo {
+  background: url(https://cdn.yoho.cn/yohobuy-node/6.9.11/img/layout/logo-en.png?16eb60a015e) no-repeat 50%;
+  width: 182px;
+  height: 53px; }
+
+.header-s-r {
+  font-size: 12px;
+  position: absolute;
+  top: 50px;
+  left: 800px; }
+.header-s-r form input {
+  width: 320px;
+  height: 28px;
+  box-sizing: border-box;
+  display: inline-block;
+  outline: none; }
+.header-s-r .da {
+  position: absolute;
+  background-color: #3a3a3a;
+  width: 100px;
+  height: 28px;
+  text-align: center;
+  color: white;
+  line-height: 28px;
+  right: 0; }
+.header-s-r ul li {
+  float: left;
+  padding-right: 16px;
+  line-height: 20px; }
+.header-s-r ul li a {
+  color: #8e8e8e; }
+
+.header-b {
+  background-color: #3a3a3a;
+  height: 40px;
+  line-height: 40px; }
+
+.header-b ul li {
+  line-height: 40px;
+  padding-right: 46px;
+  box-sizing: border-box;
+  margin-right: 36px;
+  display: inline-block;
+  cursor: pointer; }
+.header-b ul li a {
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px; }
+
+.banner-t ul li {
+  display: none; }
+
+.banner-b ul {
+  display: block;
+  overflow: hidden; }
+.banner-b ul li {
+  float: left;
+  margin-left: 5px;
+  width: 138px;
+  height: 54px;
+  opacity: 0.7;
+  display: block; }
+
+#main .biaoti div {
+  width: 300px;
+  height: 33px;
+  border: 1px solid black;
+  line-height: 33px;
+  margin: 0 auto; }
+
+#main .biaoti {
+  width: 100%;
+  margin: 80px 0 40px;
+  text-align: center; }
+
+#main .shangpin li {
+  border: 1px solid black;
+  float: left;
+  width: 100px;
+  height: 80px; }
+
+#main .shangpin ul {
+  overflow: hidden; }
+
+#footer {
+  width: 100%;
+  height: 384px;
+  background: url(../img/dibu.png) no-repeat center;
+  cursor: pointer; }
 
 /*# sourceMappingURL=index1.css.map */
