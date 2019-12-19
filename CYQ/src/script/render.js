@@ -32,3 +32,4 @@
     }
 
     new Render().init();
+    export {Render}

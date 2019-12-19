@@ -36,7 +36,6 @@ class Lunbo {
             }
             _this.picli[_this.num].className = "show";
             _this.btnli[_this.num].className = "focus";
-            console.log(_this.num)
         }
         //定时轮播
         this.timer = setInterval(function () {
@@ -54,6 +53,7 @@ class Lunbo {
     }
 }
 
-
-
 new Lunbo().init();
+export {
+    Lunbo
+} //暴露

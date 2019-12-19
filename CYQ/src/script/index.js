@@ -48,3 +48,6 @@ class Index {
     
 }
 new Index().init();
+export {
+    Index
+} //暴露
